@@ -1,5 +1,5 @@
 # Text Editor
-A simple text editor, with basic functionality, written C#, developed in Visual Studio[^1] using Avalonia.
+A simple text editor, with basic functionality. Written in C# and developed in Visual Studio[^1] using Avalonia.
 
 - Current Version: 0.0.5
 

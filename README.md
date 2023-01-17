@@ -16,14 +16,19 @@ Intro body text goes here.
 MENU
 
 1 [WIP] BUTTONS: Save Text as File, Open Text File, etc.
+
 2 [ ] ????
+
 3 [ ] ????
 
 DOCUMENT PANE
 
 1 [ ] Rich Text Formatting Tools
+
 2 [ ] 
+
 3 [ ] ????
+
 4 [ ] ????
 
 

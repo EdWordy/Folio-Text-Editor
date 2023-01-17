@@ -13,9 +13,19 @@ Intro body text goes here.
 
 ## FEATURES:
 
-[ ] Feature 1 here
+MENU
 
-[ ] ...
+1 [WIP] BUTTONS: Save Text as File, Open Text File, etc.
+2 [ ] ????
+3 [ ] ????
+
+DOCUMENT PANE
+
+1 [ ] Rich Text Formatting Tools
+2 [ ] 
+3 [ ] ????
+4 [ ] ????
+
 
 [^1]: Visual Studio is property of Microsoft Corporation.
 

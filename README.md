@@ -1,5 +1,5 @@
-# Template-Repo-A
-A sample template repository for commercial projects written in VS[^1].
+# Text Editor
+A simple text editor, with basic functionality, written in VS[^1].
 
 - Current Version: 1.0.0
 
@@ -17,10 +17,6 @@ Intro body text goes here.
 
 [ ] ...
 
-## THANKS TO:
-
-Any and all thanks go here.
-
-[^1]: Footnote 1 here.
+[^1]: Visual Studio is property of Microsoft Corporation.
 
 [^2]: Refer to LICENSE for more information on the terms and conditions of the use of the software.

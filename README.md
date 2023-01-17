@@ -1,7 +1,7 @@
 # Text Editor
 A simple text editor, with basic functionality, written in VS[^1].
 
-- Current Version: 1.0.0
+- Current Version: 0.0.5
 
 - Last Updated: 01 16 2023
 

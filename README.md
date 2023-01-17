@@ -1,5 +1,5 @@
 # Text Editor
-A simple text editor, with basic functionality, written in VS[^1].
+A simple text editor, with basic functionality, written in VS[^1] using Avalonia.
 
 - Current Version: 0.0.5
 

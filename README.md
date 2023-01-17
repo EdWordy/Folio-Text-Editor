@@ -3,7 +3,7 @@ A simple text editor, with basic functionality, written in VS[^1].
 
 - Current Version: 1.0.0
 
-- Last Updated: 12 15 2022
+- Last Updated: 01 16 2023
 
 Licensed with Apache License 2.0[^2].
 

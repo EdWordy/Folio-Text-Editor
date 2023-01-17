@@ -9,27 +9,23 @@ Licensed with Apache License 2.0[^2].
 
 ## INTRO:
 
-Intro body text goes here.
+A handy-dandy text editor, for when you need to write a few lines of text.
 
 ## FEATURES:
 
-MENU
+#### MENU
 
-1 [WIP] BUTTONS: Save Text as File, Open Text File, etc.
+1 [WIP] FILE MANAGEMENT BUTTONS: Save Text as File, Open Text File, etc.
 
-2 [ ] ????
+2 [ ] FEATURE 2: ????
 
-3 [ ] ????
+3 [ ] FEATURE 3: ????
 
-DOCUMENT PANE
+#### DOCUMENT EDITING PANE
 
 1 [ ] Rich Text Formatting Tools
 
-2 [ ] 
-
-3 [ ] ????
-
-4 [ ] ????
+2 [ ] FEATURE 5: ????
 
 
 [^1]: Visual Studio is property of Microsoft Corporation.

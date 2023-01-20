@@ -1,0 +1,48 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <BuiltInComInteropSupport>true</BuiltInComInteropSupport>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove=".gitignore" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TrimmerRootDescriptor Include="Roots.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="0.10.18" />
+    <PackageReference Include="Avalonia.Desktop" Version="0.10.18" />
+    <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
+    <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="0.10.18" />
+    <PackageReference Include="XamlNameReferenceGenerator" Version="1.5.1" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<!-- Top Row buttons (001-010)  -->
+		<AvaloniaResource Include="Assets/Text-Editor-Icon-001.jpg" />
+		<AvaloniaResource Include="Assets/Text-Editor-Icon-002.jpg" />
+		<AvaloniaResource Include="Assets/Text-Editor-Icon-003.jpg" />
+		<AvaloniaResource Include="Assets/Text-Editor-Icon-004.jpg" />
+		<!-- Bottom Row 1 buttons (011-020)   -->
+		<AvaloniaResource Include="Assets/Text-Editor-Icon-011.jpg" />
+		<AvaloniaResource Include="Assets/Text-Editor-Icon-011b.jpg" />
+		<AvaloniaResource Include="Assets/Text-Editor-Icon-012.jpg" />
+		<AvaloniaResource Include="Assets/Text-Editor-Icon-012b.jpg" />
+		<AvaloniaResource Include="Assets/Text-Editor-Icon-013.jpg" />
+		<AvaloniaResource Include="Assets/Text-Editor-Icon-013b.jpg" />
+		<AvaloniaResource Include="Assets/Text-Editor-Icon-016.jpg" />
+		<!-- Misc. buttons (021-030)   -->
+		<AvaloniaResource Include="Assets/Text-Editor-Icon-021.png" />
+		<AvaloniaResource Include="Assets/Text-Editor-Icon-022.png" />
+		<AvaloniaResource Include="Assets/Text-Editor-Icon-023.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+    <Folder Include="Assets\" />
+  </ItemGroup>
+</Project>

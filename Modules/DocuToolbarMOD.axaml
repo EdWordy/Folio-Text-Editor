@@ -1,0 +1,86 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="768" d:DesignHeight="48"
+			 x:Class="Folio.Modules.DocuToolbarMOD">
+	<DockPanel DockPanel.Dock="Left">
+
+		<Separator Width="48"></Separator>
+
+		<!-- Bottom Row 1 - Rich Text Tools -->
+
+		<ToggleButton Checked="Click11" DockPanel.Dock="Left" Name="BTN11" MaxWidth="48" ToolTip.Tip="btn11">
+			<Panel>
+				<Image Width="32" Source="/Assets/Text-Editor-Icon-011b.jpg"/>
+			</Panel>
+		</ToggleButton>
+
+		<ToggleButton Checked="Click12" DockPanel.Dock="Left" Name="BTN12" MaxWidth="48" ToolTip.Tip="btn12">
+
+			<Panel>
+				<Image Width="32" Source="/Assets/Text-Editor-Icon-012b.jpg"/>
+			</Panel>
+		</ToggleButton>
+
+		<ToggleButton Checked="Click13" DockPanel.Dock="Left" Name="BTN13" MaxWidth="48" ToolTip.Tip="btn13">
+
+			<Panel>
+				<Image Width="32" Source="/Assets/Text-Editor-Icon-013b.jpg"/>
+			</Panel>
+		</ToggleButton>
+		<ToggleButton Checked="Click14" DockPanel.Dock="Left" Name="BTN14" MaxWidth="48" ToolTip.Tip="btn14">
+
+			<Panel>
+				<Image Width="32" Source="/Assets/Text-Editor-Icon-001.jpg"/>
+			</Panel>
+		</ToggleButton>
+
+		<Separator Width="48"></Separator>
+
+		<!-- Extra Button -->
+
+		<ToggleButton Click="Click15" Name="BTN15" MaxWidth="48" ToolTip.Tip="btn15">
+			<Panel>
+				<Image Width="32" Source="/Assets/Text-Editor-Icon-001.jpg"/>
+			</Panel>
+		</ToggleButton>
+
+		<Separator Width="48"></Separator>
+
+		<!-- Bottom Row 2 - ???? -->
+
+		<Button Click="Click16" DockPanel.Dock="Left" Name="BTN16" MaxWidth="48" ToolTip.Tip="Count Words" HotKey="Ctrl+t">
+			<Panel>
+				<Image Width="32" Source="/Assets/Text-Editor-Icon-016.jpg"/>
+			</Panel>
+		</Button>
+
+		<Button Click="Click17" DockPanel.Dock="Left" Name="BTN17" MaxWidth="48" ToolTip.Tip="btn17">
+
+			<Panel>
+				<Image Width="32" Source="/Assets/Text-Editor-Icon-001.jpg"/>
+			</Panel>
+		</Button>
+
+		<Button Click="Click18" DockPanel.Dock="Left" Name="BTN18" MaxWidth="48" ToolTip.Tip="btn18">
+
+			<Panel>
+				<Image Width="32" Source="/Assets/Text-Editor-Icon-001.jpg"/>
+			</Panel>
+		</Button>
+		<Button Click="Click19" DockPanel.Dock="Left" Name="BTN19" MaxWidth="48" ToolTip.Tip="btn19">
+
+			<Panel>
+				<Image Width="32" Source="/Assets/Text-Editor-Icon-001.jpg"/>
+			</Panel>
+		</Button>
+
+		<Separator Width="48"></Separator>
+
+		<!-- Info Dash -->
+
+		<TextBlock Name="WORDCT" Margin="16">00000</TextBlock>
+		
+	</DockPanel>
+</UserControl>

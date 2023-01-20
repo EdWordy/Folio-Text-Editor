@@ -39,8 +39,6 @@ A handy-dandy text editor, for when you need to write a few lines of text.
 
 2 [PASS] LOG FILE: A logging file, for fine-grain debugging
 
-As well, the parser, for counting words, goes from specific case to general. I tried general to specific with little result.
-
 [^1]: Visual Studio is property of Microsoft Corporation.
 
 [^2]: Refer to LICENSE for more information on the terms and conditions of the use of the software.
@@ -48,3 +46,5 @@ As well, the parser, for counting words, goes from specific case to general. I t
 #### NOTE
 
 Most of the code is styled in a code-behind paradigm, but the parser uses a singleton-esque pattern. I.E. There is an instance of the parserMOD class in MainWindow created on intialization, a static reference called ParserMOD.Current used to make calls on the singleton, and then the code is called in button clicks, or in some other UI control (from DocuToolbar). This works as intended.
+
+As well, the parser, for counting words, goes from specific case to general. I tried general to specific with little result.

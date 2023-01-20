@@ -17,7 +17,7 @@ A handy-dandy text editor, for when you need to write a few lines of text.
 
 ## FEATURES:
 
-#### MENU TOOLBAR
+#### 1 MENU TOOLBAR
 
 1 [WIP] FILE MANAGEMENT BUTTONS: Save Text as File, Open Text File, etc.
 
@@ -25,7 +25,7 @@ A handy-dandy text editor, for when you need to write a few lines of text.
 
 3 [ ] FEATURE 3: ????
 
-#### DOCUMENT EDITING PANE
+#### 2 DOCUMENT EDITING PANE
 
 1 [WIP] RICH TEXT FORMATTING: Tools, such as bold, and more!
 
@@ -33,18 +33,18 @@ A handy-dandy text editor, for when you need to write a few lines of text.
 
 3 [WIP] COMPLEX TEXT ANALYSIS: ????
 
-#### EXTRA
+#### 3 EXTRA
 
 1 [PASS] TEXT PARSING ENGINE: A text parsing engine for advanced text features
 
 2 [PASS] LOG FILE: A logging file, for fine-grain debugging
-
-##### NOTE
-
-Most of the code is styled in a code-behind paradigm, but the parser uses a singleton-esque pattern. I.E. There is an instance of the parserMOD class in main window created on intialization, a static reference called ParserMOD.Current used to make calls on the singleton, and then the code is called in button clicks, or in some other UI control. This works as intended.
 
 As well, the parser, for counting words, goes from specific case to general. I tried general to specific with little result.
 
 [^1]: Visual Studio is property of Microsoft Corporation.
 
 [^2]: Refer to LICENSE for more information on the terms and conditions of the use of the software.
+
+#### NOTE
+
+Most of the code is styled in a code-behind paradigm, but the parser uses a singleton-esque pattern. I.E. There is an instance of the parserMOD class in MainWindow created on intialization, a static reference called ParserMOD.Current used to make calls on the singleton, and then the code is called in button clicks, or in some other UI control (from DocuToolbar). This works as intended.

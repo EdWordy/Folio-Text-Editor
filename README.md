@@ -13,6 +13,8 @@ Licensed with Apache License 2.0[^2].
 
 A handy-dandy text editor, for when you need to write a few lines of text.
 
+![The app in its current state](/Text-Editor-eg.jpg)
+
 ## FEATURES:
 
 #### MENU TOOLBAR

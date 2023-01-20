@@ -3,7 +3,7 @@ A simple text editor, with basic functionality.
 
 - Current Version: 0.1.0
 
-- Last Updated: 01 16 2023
+- Last Updated: 01 19 2023
 
 Written in C# and developed in Visual Studio[^1] using Avalonia.
 
@@ -15,20 +15,27 @@ A handy-dandy text editor, for when you need to write a few lines of text.
 
 ## FEATURES:
 
-#### MENU
+#### MENU TOOLBAR
 
 1 [WIP] FILE MANAGEMENT BUTTONS: Save Text as File, Open Text File, etc.
 
-2 [ ] FEATURE 2: ????
+2 [PASS] FILE STATUS UPDATES: HUD status updates on the programs functioning
 
 3 [ ] FEATURE 3: ????
 
 #### DOCUMENT EDITING PANE
 
-1 [ ] Rich Text Formatting Tools
+1 [WIP] RICH TEXT FORMATTING: Tools, such as bold, and more!
 
-2 [ ] FEATURE 5: ????
+2 [WIP] SIMPLE TEXT ANALYSIS: Tools such as Word Count, Reading level, etc.
 
+3 [WIP] COMPLEX TEXT ANALYSIS: ????
+
+#### EXTRA
+
+1 [PASS] TEXT PARSING ENGINE: A text parsing engine for advanced text features
+
+2 [PASS] FILE LOGGING: A file logger, for fine-grain debugging
 
 [^1]: Visual Studio is property of Microsoft Corporation.
 

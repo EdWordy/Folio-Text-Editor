@@ -1,7 +1,7 @@
 # Text Editor
 A simple text editor, with basic functionality.
 
-- Current Version: 0.0.5
+- Current Version: 0.1.0
 
 - Last Updated: 01 16 2023
 

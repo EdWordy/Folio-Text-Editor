@@ -35,7 +35,7 @@ A handy-dandy text editor, for when you need to write a few lines of text.
 
 1 [PASS] TEXT PARSING ENGINE: A text parsing engine for advanced text features
 
-2 [PASS] FILE LOGGING: A file logger, for fine-grain debugging
+2 [PASS] LOG FILE: A logging file, for fine-grain debugging
 
 [^1]: Visual Studio is property of Microsoft Corporation.
 

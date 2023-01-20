@@ -1,4 +1,4 @@
-# Text Editor
+# Folio Text Editor
 A simple text editor, with basic functionality.
 
 - Current Version: 0.1.0

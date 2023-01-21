@@ -1,5 +1,16 @@
 # Folio Text Editor
+
+## INTRO:
+
 A simple text editor, with basic functionality.
+
+---
+
+#### PREVIEW
+
+![The app in its current state](/Text-Editor-eg.jpg)
+
+#### VERSIONING
 
 - Current Version: 0.1.0
 
@@ -8,12 +19,6 @@ A simple text editor, with basic functionality.
 Written in C# and developed in Visual Studio[^1] using Avalonia.
 
 Licensed with Apache License 2.0[^2].
-
-## INTRO:
-
-A handy-dandy text editor, for when you need to write a few lines of text.
-
-![The app in its current state](/Text-Editor-eg.jpg)
 
 ## FEATURES:
 
@@ -42,6 +47,8 @@ A handy-dandy text editor, for when you need to write a few lines of text.
 [^1]: Visual Studio is property of Microsoft Corporation.
 
 [^2]: Refer to LICENSE for more information on the terms and conditions of the use of the software.
+
+---
 
 #### NOTE
 

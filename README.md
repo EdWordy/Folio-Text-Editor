@@ -26,7 +26,7 @@ Licensed with Apache License 2.0[^2].
 
 1 [WIP] FILE MANAGEMENT BUTTONS: Save Text as File, Open Text File, etc.
 
-2 [PASS] FILE STATUS UPDATES: HUD status updates on the programs functioning
+2 [X] FILE STATUS UPDATES: HUD status updates on the programs functioning
 
 3 [ ] FEATURE 3: ????
 
@@ -40,9 +40,9 @@ Licensed with Apache License 2.0[^2].
 
 #### 3 EXTRA
 
-1 [PASS] TEXT PARSING ENGINE: A text parsing engine for advanced text features
+1 [X] TEXT PARSING ENGINE: A text parsing engine for advanced text features
 
-2 [PASS] LOG FILE: A logging file, for fine-grain debugging
+2 [X] LOG FILE: A logging file, for fine-grain debugging
 
 [^1]: Visual Studio is property of Microsoft Corporation.
 

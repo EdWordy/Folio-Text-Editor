@@ -29,7 +29,7 @@ namespace Folio.Modules
             var fileName = MainWindow.Current.Title + "-Log";
 
             // create the logfile at the given path
-            StreamWriter logfile = File.AppendText("E:/Local Repo/Logs/" + fileName + ".txt");
+            StreamWriter logfile = File.AppendText("E:/Logs/" + fileName + ".txt");
 
             // write to the stream
             logfile.Write("----------------" + "\n");

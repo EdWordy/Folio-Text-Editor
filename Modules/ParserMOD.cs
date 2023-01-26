@@ -29,36 +29,6 @@ namespace Folio.Modules
             }
         }
 
-        public void LoadTextAndCountWords()
-        {
-            // create a new string content to check
-            string content = new string("");
-            // set content equal to the textbox
-            content = TextBoxMOD.Current.MAINTB.Text;
-
-            // if content isn't empty, then
-            if (content.Length > 0 && content != "")
-            {
-                // get the word count with a helper method
-                int wordCount = ParseAndCount(content);
-
-
-
-                // format the word counter number with a helper method
-                String formattedWordCount = FormatCount(wordCount);
-                // set the word counter label equal to the formatted word count
-                DocuToolbarMOD.Current.WORDCT.Text = formattedWordCount;
-
-            }
-            else
-            {
-                // msg
-                FileMenuToolbarMOD.Current.FILEINFO.Text = "ERROR: Invalid Input [no text to parse]";
-                FileMenuToolbarMOD.Current.AlertIcon01.IsVisible = true;
-
-            }
-        }
-
         public void CountWords()
         {
             // if content isn't empty, then
@@ -85,6 +55,66 @@ namespace Folio.Modules
         }
 
         // helper methods
+
+        public int Count(string content)
+        {
+            // logging msgs
+            StreamWriter Log = FileLoggerMOD.Current.LogFileOpen();
+            FileLoggerMOD.Current.Log(Log, "INIT>>CALL>>LoadTextAndCountWords");
+
+            // variables
+            int letterCountWord = 0;
+            int letterCountTotal = 0;
+            int wordCount = 0;
+            int sentenceCount = 0;
+
+            for (int i = 0; i < content.Length; i++) 
+            { 
+                char toCheck = content[i];
+
+                if (toCheck == '-')
+                {
+                    // if its a dash
+                    FileLoggerMOD.Current.Log(Log, "dash found");
+
+                }
+                else if (toCheck == '\"')
+                {
+                    // if its a double quote
+                    FileLoggerMOD.Current.Log(Log, "double quote found");
+                }
+                else if (toCheck == '\'')
+                {
+                    // if its a single quote
+                    FileLoggerMOD.Current.Log(Log, "single quote found");
+                }
+                else if (toCheck is '.' or '!' or '?' or ':' or ';')
+                {
+                    // if its punctuation
+                    FileLoggerMOD.Current.Log(Log, "punctuation found");
+                }
+                else if (toCheck == ',')
+                {
+                    // if its a common
+                    FileLoggerMOD.Current.Log(Log, "comma found");
+                }
+                else if (toCheck != ' ')
+                {
+                    // if its a character
+                    FileLoggerMOD.Current.Log(Log, "char found: " + toCheck);
+                }
+            }
+
+            // final messages
+            FileLoggerMOD.Current.Log(Log, "DNIT>>CALL>>LoadTextAndCountWords");
+            FileLoggerMOD.Current.Log(Log, "OUT>>VAR>>wordCount: " + wordCount);
+
+            // final cleanup
+            Log.Close();
+
+            return wordCount;
+
+        }
 
         public int ParseAndCount(string content)
         {
